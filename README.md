@@ -1,2 +1,2 @@
-# map-layer-test
+# map-layer
 GeoJSON for Looker map layer test
