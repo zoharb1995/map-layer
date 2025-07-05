@@ -2,8 +2,8 @@ name: Daily GeoJSON Update
 
 on:
   schedule:
-    - cron: '0 11 * * *'   # Every day at 14:00 Israel
-  workflow_dispatch:      # Optional: manual trigger from GitHub
+    - cron: '0 14 * * *'   # Every day at 17:00 Israel time (14:00 UTC)
+  workflow_dispatch:
 
 jobs:
   update-geojson:
